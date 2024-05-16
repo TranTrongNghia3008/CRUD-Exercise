@@ -1,0 +1,37 @@
+{
+  "development": {
+    "username": "blogdb",
+    "password": "YH52KTpdAnsaoj9S67Wvgy8XIlu4uWK9",
+    "database": "blogdb2",
+    "host": "dpg-cp1lio63e1ms738osadg-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "port": 5432,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "blogdb",
+    "password": "YH52KTpdAnsaoj9S67Wvgy8XIlu4uWK9",
+    "database": "blogdb2",
+    "host": "dpg-cp1lio63e1ms738osadg-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "port": 5432,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
